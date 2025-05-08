@@ -1,0 +1,75 @@
+.Padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    font-size: 12px;
+    height: 450px;
+    margin-top: 80px;
+    background-color: whitesmoke;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.ContenedorRegistro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    font-size: 12px;
+    height: 500px;
+    margin-top: 80px;
+    background-color: whitesmoke;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.Sesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    font-size: 12px;
+    height: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.BotonInicio{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.BotonInicio:hover{
+    background-color: green;
+    width: 210px;
+    height: 45px;
+    transition: 0.25s all;
+    
+}
+
+.Registro{
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 0;
+}
