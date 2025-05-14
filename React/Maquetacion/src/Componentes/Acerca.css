@@ -1,0 +1,43 @@
+.ContenedorA {
+  width: 800px;
+  height: 500px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin-left: 200px;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.Textos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    gap: 35px;
+}
+
+.Ambiental{
+    display: flex;
+    flex-direction: row;
+}
+
+.Textos img{
+    width: 90px;
+    height: 90px;
+}
+
+.Textos h2{
+    font-size: 30px;
+}
+
+.Textos h1{
+    font-size: 40px;
+    color: green;
+}

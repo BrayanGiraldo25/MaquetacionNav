@@ -19,14 +19,19 @@
     border: 1px solid black;
 }
 
+.imagen{
+    height: 50px;
+    width: 50px;
+}
+
 .ContenedorRegistro {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 400px;
     font-size: 12px;
-    height: 500px;
-    margin-top: 80px;
+    height: 550px;
+    margin-top: 50px;
     background-color: whitesmoke;
     flex-direction: column;
     gap: 30px;

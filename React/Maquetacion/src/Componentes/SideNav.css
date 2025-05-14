@@ -1,29 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: row; /* Asegura disposición horizontal */
+}
+
 .sideNav {
-    width: 250px;
-    height: 100vh;
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    gap: 70px;
+  width: 250px;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 90px;
+  font-size: 10px;
 }
 
-.Boton{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 200px;
-    height: 40px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
+.imagen {
+  width: 50px;
+  height: 50px;
 }
 
-.Boton:hover{
-    background-color: green;
-    width: 210px;
-    height: 45px;
-    transition: 0.25s all;
+.Servicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  font-size: 12px;
+  height: 450px;
+  margin-top: 80px;
+  background-color: whitesmoke;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.Boton {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.Boton:hover {
+  background-color: green;
+  width: 210px;
+  height: 45px;
+  transition: 0.25s all;
 }
